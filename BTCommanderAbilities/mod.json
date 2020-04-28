@@ -1,0 +1,10 @@
+﻿{
+  "Name": "BTCommanderAbilities",
+  "Enabled": true,
+
+  "Description": "Allows your commander to learn all abilities.",
+  "Author": "mcb",
+  "Website": "https://github.com/mcb5637/BTCommanderAbilities",
+
+  "DLL": "BTCommanderAbilities.dll"
+}
