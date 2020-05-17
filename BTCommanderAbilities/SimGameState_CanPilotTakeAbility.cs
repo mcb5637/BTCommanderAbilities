@@ -12,9 +12,17 @@ namespace BTCommanderAbilities
     {
         public static void Postfix(PilotDef p, ref bool __result)
         {
-            if (p.PilotTags != null && p.PilotTags.Contains("commander_player"))
+            if (BTCommanderAbilitiesInit.Settings.All)
             {
                 __result = true;
+                return;
+            }
+            foreach (string s in BTCommanderAbilitiesInit.Settings.Tags)
+            {
+                if (p.PilotTags != null && p.PilotTags.Contains(s))
+                {
+                    __result = true;
+                }
             }
         }
     }

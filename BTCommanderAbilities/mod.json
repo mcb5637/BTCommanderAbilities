@@ -6,5 +6,10 @@
   "Author": "mcb",
   "Website": "https://github.com/mcb5637/BTCommanderAbilities",
 
-  "DLL": "BTCommanderAbilities.dll"
+  "DLL": "BTCommanderAbilities.dll",
+
+  "Settings": {
+    "All": false,
+    "Tags": [ "commander_player" ]
+  }
 }
