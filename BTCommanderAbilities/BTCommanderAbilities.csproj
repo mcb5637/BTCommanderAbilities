@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="BTCommanderAbilitiesInit.cs" />
     <Compile Include="BTCommanderAbilitiesSettings.cs" />
+    <Compile Include="SimGameState_Rehydrate.cs" />
     <Compile Include="SimGameState_CanPilotTakeAbility.cs" />
   </ItemGroup>
   <ItemGroup>
